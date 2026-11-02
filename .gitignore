@@ -1,0 +1,42 @@
+# khoa bi mat - KHONG BAO GIO commit
+config.json
+*.env
+.env
+*_token*.json
+cookies*.json
+
+# ho so trinh duyet (chua phien dang nhap)
+*_profile/
+flow_profile/
+muse_profile/
+yt_profile/
+
+# giong doc mau (du lieu ca nhan)
+voice_ref/
+
+# san pham va file tam
+ep*/
+tai_ve*/
+_anh_higgs/
+_cu/
+_test*/
+kenh/
+music/
+*.mp4
+*.mp3
+*.wav
+*.png
+*.jpg
+
+# tai nguyen nho di kem repo
+!xuong-video-nguoi-que/overlays/**
+!**/assets/fonts/**
+*.log
+_kho_kich_ban.json
+hang_ngay_log.json
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
